@@ -1,45 +1,69 @@
-# OPS205-Linux-VMs-Bash-Scripting
-Linux VM deployment (Ubuntu &amp; Fedora) and Bash scripting for system automation – Seneca Polytechnic (OPS205)
 # Linux VM Deployment and Bash Scripting – OPS205 Assignment 1
 
 **Course:** OPS205 – Open Source Operating Systems  
 **Date:** October 2023  
 **Institution:** Seneca Polytechnic
 
+---
+
 ## 🧠 Overview
-This project involved creating two Linux virtual machines using Ubuntu and Fedora, performing essential post-installation tasks, and writing a BASH script to automate system queries. The goal was to gain hands-on experience working with Linux environments, system configuration, and basic scripting.
+This project focused on creating and configuring two nested Linux virtual machines (Ubuntu and Fedora), performing common post-installation tasks, and building a Bash script to automate system queries. It highlights the fundamentals of Linux systems management and basic shell scripting.
+
+---
 
 ## 🛠️ Key Tasks
-- Installed Ubuntu 22.04.3 (minimal install) and Fedora as nested VMs
+- Installed Ubuntu 22.04.3 (Minimal Install) and Fedora as nested virtual machines
 - Configured Cinnamon desktop environment and updated both systems
-- Installed key packages: Chromium and Vim
-- Created two new users on Ubuntu
-- Developed a fully commented Bash script that:
-  - Accepts user input
-  - Checks a user’s UID or service status
-  - Handles errors and invalid inputs
-  - Saves output to a file
+- Installed essential packages including Chromium and Vim
+- Created two new user accounts on the Ubuntu VM
+- Wrote a Bash script to:
+  - Check user ID or system service status
+  - Handle invalid inputs
+  - Log output to `sysinfo-output.txt`
+  - Display real-time results on screen
+- All Bash script logic includes inline comments for clarity
 
-## 🖥️ Screenshots
-Project includes full screenshots showing:
-- VM creation and updates
-- User creation
-- Desktop environment setup
+---
+
+## 📸 Screenshots
+All screenshots demonstrating:
+- VM configuration
+- System updates
 - Package installation
-- Bash script execution and output
+- Bash script content and execution
 
-> View screenshots in the `/screenshots/` folder
+📁 Are included in the file:  
+**`ops205A1-oogundipe3.docx`**
 
-## 📝 Linux Distro Write-Up (Fedora)
-The Fedora distribution was selected for its cutting-edge nature and close alignment with Red Hat. Full write-up included in the project folder.
+---
 
-## 🔧 Skills Demonstrated
-- Virtual machine installation & configuration
-- Ubuntu & Fedora administration
-- Bash scripting (using `if`, `grep`, output redirection)
-- Package installation via APT & DNF
-- File structure, permissions, and system automation
+## 📝 Linux Distribution Analysis
+I selected **Fedora** for its innovative, cutting-edge nature and strong alignment with Red Hat Enterprise Linux.
 
-## 📂 Project Status
-✅ Successfully completed and submitted  
-📝 Bash script produced correct output for all test cases  
+📄 [View Fedora Linux Write-Up](./fedora-writeup.txt)
+
+---
+
+## 🧠 Skills Demonstrated
+- Linux VM installation (Ubuntu + Fedora)
+- Bash scripting using `sudo`, `if`, `grep`, and output redirection
+- User and package management
+- Working with multiple Linux distros
+- File permissions and system services
+
+---
+
+## ✅ Project Status
+- ✅ Fully completed and submitted
+- 📄 All screenshots are available in `.docx` format
+- 📝 Script produced accurate results across test cases
+
+---
+
+## 📂 Repo Files
+- `README.md` – this file  
+- `ops205A1-oogundipe3.docx` – all screenshots & project content  
+- `fedora-writeup.txt` – Linux distro research write-up
+
+---
+
