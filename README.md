@@ -40,7 +40,7 @@ All screenshots demonstrating:
 ## 📝 Linux Distribution Analysis
 I selected **Fedora** for its innovative, cutting-edge nature and strong alignment with Red Hat Enterprise Linux.
 
-📄 [View Fedora Linux Write-Up](./fedora-writeup.txt)
+📄 [View Fedora Linux Write-Up](https://github.com/Dammy-578/OPS205-Linux-VMs-Bash-Scripting/blob/main/screenshots/fedora-writeup.txt)
 
 ---
 
@@ -62,8 +62,7 @@ I selected **Fedora** for its innovative, cutting-edge nature and strong alignme
 
 ## 📂 Repo Files
 - `README.md` – this file  
-- `ops205A1-oogundipe3.docx` – all screenshots & project content  
-- `fedora-writeup.txt` – Linux distro research write-up
+- `ops205A1-oogundipe3.docx` – screenshots and content  
+- `screenshots/fedora-writeup.txt` – Linux distro analysis
 
 ---
-
